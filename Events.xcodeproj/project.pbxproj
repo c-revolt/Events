@@ -13,6 +13,7 @@
 		D0AC50682A4B0B14009F00C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0AC50672A4B0B14009F00C2 /* Assets.xcassets */; };
 		D0AC506B2A4B0B14009F00C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0AC50692A4B0B14009F00C2 /* LaunchScreen.storyboard */; };
 		D0AC50762A4B110C009F00C2 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC50752A4B110C009F00C2 /* AppCoordinator.swift */; };
+		D0AC50782A4B20B4009F00C2 /* EventListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC50772A4B20B4009F00C2 /* EventListCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		D0AC506C2A4B0B14009F00C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0AC50742A4B0F10009F00C2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D0AC50752A4B110C009F00C2 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		D0AC50772A4B20B4009F00C2 /* EventListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				D0AC50722A4B0DA0009F00C2 /* SupporingFiles */,
 				D0AC50622A4B0B10009F00C2 /* EventListViewController.swift */,
 				D0AC50752A4B110C009F00C2 /* AppCoordinator.swift */,
+				D0AC50772A4B20B4009F00C2 /* EventListCoordinator.swift */,
 			);
 			path = Events;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				D0AC50632A4B0B10009F00C2 /* EventListViewController.swift in Sources */,
 				D0AC505F2A4B0B10009F00C2 /* AppDelegate.swift in Sources */,
 				D0AC50612A4B0B10009F00C2 /* SceneDelegate.swift in Sources */,
+				D0AC50782A4B20B4009F00C2 /* EventListCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
