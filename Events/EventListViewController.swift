@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  EventListViewController.swift
 //  Events
 //
 //  Created by Александр Прайд on 27.06.2023.
@@ -7,11 +7,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class EventListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        view.backgroundColor = .gray
     }
 
 
