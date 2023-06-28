@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0A74DE02A4C1D70004E1B95 /* UIColor + Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A74DDF2A4C1D70004E1B95 /* UIColor + Extentions.swift */; };
 		D0AC505F2A4B0B10009F00C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC505E2A4B0B10009F00C2 /* AppDelegate.swift */; };
 		D0AC50612A4B0B10009F00C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC50602A4B0B10009F00C2 /* SceneDelegate.swift */; };
 		D0AC50632A4B0B10009F00C2 /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC50622A4B0B10009F00C2 /* EventListViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D0A74DDF2A4C1D70004E1B95 /* UIColor + Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extentions.swift"; sourceTree = "<group>"; };
 		D0AC505B2A4B0B10009F00C2 /* Events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Events.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0AC505E2A4B0B10009F00C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0AC50602A4B0B10009F00C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +42,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0A74DDD2A4C1D5A004E1B95 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D0A74DDE2A4C1D61004E1B95 /* Extentions */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		D0A74DDE2A4C1D61004E1B95 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				D0A74DDF2A4C1D70004E1B95 /* UIColor + Extentions.swift */,
+			);
+			name = Extentions;
+			sourceTree = "<group>";
+		};
 		D0AC50522A4B0B10009F00C2 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +78,7 @@
 		D0AC505D2A4B0B10009F00C2 /* Events */ = {
 			isa = PBXGroup;
 			children = (
+				D0A74DDD2A4C1D5A004E1B95 /* Utils */,
 				D0AC50732A4B0DAF009F00C2 /* Application */,
 				D0AC50722A4B0DA0009F00C2 /* SupporingFiles */,
 				D0AC50622A4B0B10009F00C2 /* EventListViewController.swift */,
@@ -160,6 +179,7 @@
 			files = (
 				D0AC50762A4B110C009F00C2 /* AppCoordinator.swift in Sources */,
 				D0AC50632A4B0B10009F00C2 /* EventListViewController.swift in Sources */,
+				D0A74DE02A4C1D70004E1B95 /* UIColor + Extentions.swift in Sources */,
 				D0AC505F2A4B0B10009F00C2 /* AppDelegate.swift in Sources */,
 				D0AC50612A4B0B10009F00C2 /* SceneDelegate.swift in Sources */,
 				D0AC50782A4B20B4009F00C2 /* EventListCoordinator.swift in Sources */,
