@@ -9,7 +9,9 @@ import Foundation
 
 final class EventListViewModel {
     
+    var coordinator: EventListCoordinator?
+    
     func tappedAddEvent() {
-        print("Add Event!")
+        coordinator?.startAddEvent()
     }
 }
