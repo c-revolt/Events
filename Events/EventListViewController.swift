@@ -15,6 +15,8 @@ class EventListViewController: UIViewController {
         
     }
     
+    var viewModel: EventListViewModel?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         views()
@@ -29,7 +31,7 @@ class EventListViewController: UIViewController {
             image: pluseImage,
             style: .plain,
             target: self,
-            action: #selector(tappedRightBarButton)
+            action: #selector(tappedAddEventBarButton)
         )
         barButtonItem.tintColor = .primary
         navigationItem.rightBarButtonItem = barButtonItem
@@ -37,8 +39,9 @@ class EventListViewController: UIViewController {
         navigationController?.navigationBar.prefersLargeTitles = true
     }
 
-    @objc private func tappedRightBarButton() {
-        print("tap-tap-tap")
+    @objc private func tappedAddEventBarButton() {
+        viewModel?.tappedAddEvent()
+        
     }
 
 }
